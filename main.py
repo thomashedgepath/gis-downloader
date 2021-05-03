@@ -4,8 +4,8 @@ from convert import geojson_to_mbtiles
 TIPPECANOE_DIR = '/usr/local/bin/'
 
 url = input("MapServer URL:")
-geojson_directory = "/Users/thomashedgepath/Documents/GitHub/ArcGIS Rest API/geojson"
-mbtiles_directory = "/Users/thomashedgepath/Documents/GitHub/ArcGIS Rest API/mbtiles"
+geojson_directory = "/home/thomas/github_projects/gis-downloader/geojson"
+mbtiles_directory = "/home/thomas/github_projects/gis-downloader/mbtiles"
 
 
 output_filename = download_from_arcmap(url, geojson_directory)
