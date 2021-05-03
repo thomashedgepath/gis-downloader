@@ -96,10 +96,6 @@ def mkdir_p(path):
 
 
 
-TIPPECANOE_DIR = '/usr/local/bin/'
 
-geojson_to_mbtiles(
-    filepaths=['/Users/thomashedgepath/Documents/GitHub/ArcGIS Rest API/2020-09-03_15:03:46.mckinney.rest.services.OpenData.Planning_Zoning.MapServer.4.geojson'],
-    tippecanoe_dir=TIPPECANOE_DIR,
-    mbtiles_file='collin.mbtiles',
-)
+
+
